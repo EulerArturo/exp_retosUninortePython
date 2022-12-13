@@ -58,17 +58,21 @@ print('*************************************************************************
 print('\t Programa para la entrega de medicamentos segun  las cantidades existentes ')
 print('\t\t\t\t\tBienvenido\n')
 
+mensj_continuar ='desea continuar proceso (S/N): ';
+mensj_despedida ='Gracias por utilizar nuestra aplicación ten un buen día...\n';
 
 pregunta = input('desea realizar proceso (S/N): ').upper()
 if pregunta == 'S':
     while pregunta == 'S':
         try:
             app();
-            pregunta = input('desea realizar otro proceso (S/N): ').upper()
+            pregunta = input(mensj_continuar).upper()
             if pregunta == 'N':
-                print('gracias por utilizar nuestra aplicacion ten un buen dia')
+                print(mensj_despedida)
         except ValueError:
             print("(!!! la aplicacion solo acepta '2' cantidades de tipo numerico ¡¡¡)\n")
-            pregunta = input('desea realizar otro proceso (S/N): ').upper()
+            pregunta = input(mensj_continuar).upper()
+            if pregunta == 'N':
+                print(mensj_despedida)
 else:
-    print('gracias por utilizar nuestra aplicación')
+    print(mensj_despedida)
