@@ -25,7 +25,7 @@ def procesos():
      else:
           print("No se puede determinar la categoría alerta", format(colores[4])) 
 
-print('************************************************************************************************')
+print('**********************************************************************************')
 print('\t Programa para calcular la presión del corazón ')
 print('Bienvenido')
 
