@@ -7,5 +7,10 @@ Recomendaciones
 # Reto 1
 ![Reto1](https://i.imgur.com/umPxbAS.gif)
 
+
 # Reto 2
 ![Reto2](https://i.imgur.com/CHtHP9k.gif)
+
+
+# Reto 3
+![Reto3](https://i.imgur.com/wtTnRIz.gif)
